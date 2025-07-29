@@ -7,6 +7,279 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="les4balises">
+        <!-- 1e PARTIE -->
+        <div class="menu">
+            <a href="index.html"><img src="MEDIA/image/nuit etoilee-removebg-preview.png" alt="" ></a>
+            <ul>
+                <li><a href="">PROGRAMMATION</a></li>
+                <li><a href="">BILLETERIE</a></li>
+                <li><a href="">INFORMATION</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- 2e PARTIE -->
+         <div class="video-section">
+    <video autoplay loop muted playsinline>
+        <source src="MEDIA/video/fond2.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1>NUIT ETOILEE</h1>
+        <p>L’univers musical vous attend, à la belle étoile</p>
+    </div>
+        <div class="reseaux">
+        <a href="https://www.gmail.com" target="_blank"><img src="MEDIA/image/enveloppe.png" alt=""></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="MEDIA/image/facebook (1).png" alt=""></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="MEDIA/image/instagram (1).png" alt=""></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="MEDIA/image/youtube.png" alt=""></a>
+        </div>
+  </div>
+
+        <!-- 3e PARTIE -->
+         <div class="apropos">
+            <fieldset class="fil">
+              <legend><h1>RENDEZ VOUS DU 22 AU 31 DECEMBRE</h1></legend> 
+              <div class="texte">
+                <p>La Nuit des Étoiles est bien plus qu’un simple festival musical 
+                c’est une célébration de la culture, de la solidarité et de la convivialité. 
+                Organisé chaque année dans le Finistère, notamment à Tréflez et au Folgoët, 
+                il rassemble les passionnés de musique, de patrimoine breton et de rencontres humaines.
+                Reserver des maintenant, pour ne rien rater de nos spectacle</p>
+            <a href=""><button>BILLETERIE</button></a>
+            </div>
+            </fieldset>
+         </div>
+        <!-- 4e PARTIE -->
+  <style>
+       .countdown-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      background-image: url(MEDIA/image/fondimg.jpg) ;
+     background-size: cover;       
+     background-position: center;   
+    background-repeat: no-repeat;
+      padding: 200px;
+    }
+
+    .time-box {
+      background-color: antiquewhite;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .number {
+      font-size: 36px;
+      font-weight: bold;
+      color: #d35400;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #333;
+      margin-top: 5px;
+      display: block;
+    }
+  </style>
+
+
+  <h1 class="bande" >Lancement de  la festivale NUIT ETOILEE dans...</h1>
+
+  <div class="countdown-container">
+    <div class="time-box"><span class="number" id="days">--</span><span class="label">Jours</span></div>
+    <div class="time-box"><span class="number" id="hours">--</span><span class="label">Heures</span></div>
+    <div class="time-box"><span class="number" id="minutes">--</span><span class="label">Minutes</span></div>
+    <div class="time-box"><span class="number" id="seconds">--</span><span class="label">Secondes</span></div>
+  </div>
+
+  <script>
+    const countdownDate = new Date("december 22, 2025 09:00:00").getTime();
+
+    const updateCountdown = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      if (distance < 0) {
+        clearInterval(updateCountdown);
+        document.body.innerHTML = "<h2>🎉 NUIT ETOILEE est maintenant ouvert !</h2>";
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((distance / (1000 * 60)) % 60);
+      const seconds = Math.floor((distance / 1000) % 60);
+
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+    }, 1000);
+  </script>
+
+  <style>
+    .slider {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%;
+      animation: slide 9s infinite linear;
+    }
+
+    .slides img {
+      width: 100%;
+      display: block;
+    }
+
+    @keyframes slide {
+      0%   { transform: translateX(0); }
+      33%  { transform: translateX(-100%); }
+      66%  { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+        <!-- 5e PARTIE -->
+         <div class="artiste">
+            <h1>NOS Artiste</h1>
+            <h2>Jeunes talents</h2>
+            <div class="porsche">
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/amadeus 2.jpg" alt=""></a>
+                    <p>Amedeus</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/ashs 1.jpg" alt=""></a>
+                    <p>Ash The Best</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/samba p1.webp" alt=""></a>
+                    <p>samba peuzzi</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/akhloubrick 1.jpg" alt=""></a>
+                    <p>Akhelou Brick</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/dip 1.jpeg" alt=""></a>
+                    <p>DIP</p>
+                </div>
+                 </div>
+                <!-- 2 -->
+                 <h2>Jeunes talents</h2>
+            <div class="porsche">
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/amadeus 2.jpg" alt=""></a>
+                    <p>Amedeus</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/ashs 1.jpg" alt=""></a>
+                    <p>Ash The Best</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/samba p1.webp" alt=""></a>
+                    <p>samba peuzzi</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/akhloubrick 1.jpg" alt=""></a>
+                    <p>Akhelou Brick</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/dip 1.jpeg" alt=""></a>
+                    <p>DIP</p>
+                </div>
+                 </div>
+            <!-- 3 -->
+                  <h2>Jeunes talents</h2>
+            <div class="porsche">
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/amadeus 2.jpg" alt=""></a>
+                    <p>Amedeus</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/ashs 1.jpg" alt=""></a>
+                    <p>Ash The Best</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/samba p1.webp" alt=""></a>
+                    <p>samba peuzzi</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/akhloubrick 1.jpg" alt=""></a>
+                    <p>Akhelou Brick</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/dip 1.jpeg" alt=""></a>
+                    <p>DIP</p>
+                </div>
+                 </div>
+            <!-- 4 -->
+                  <h2>Jeunes talents</h2>
+            <div class="porsche">
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/amadeus 2.jpg" alt=""></a>
+                    <p>Amedeus</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/ashs 1.jpg" alt=""></a>
+                    <p>Ash The Best</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/samba p1.webp" alt=""></a>
+                    <p>samba peuzzi</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/akhloubrick 1.jpg" alt=""></a>
+                    <p>Akhelou Brick</p>
+                </div>
+                <div class="M5">
+                    <a href=""><img src="MEDIA/image/dip 1.jpeg" alt=""></a>
+                    <p>DIP</p>
+                </div>
+                 </div>
+            </div>
+        <!-- 6e PARTIE -->
+         <div class="nospartenaires">
+            <h1>NOS PARTENAIRES</h1>
+            <div class="np1">
+                <a href="https://www.adidas.fr/" target="_blank"><img src="MEDIA/image/Adidas_Logo.svg" alt=""></a>
+                <a href="https://fr.trace.tv/trace-urban/" target="_blank"><img src="MEDIA/image/trace_musique-removebg-preview.png" alt=""></a>
+                <a href="" target="_blank"><img src="MEDIA/image/images-removebg-preview.png" alt=""></a>
+            </div>
+            <div class="np1">
+                <a href="" target="_blank"><img src="MEDIA/image/TFM_LOGO-removebg-preview.png" alt=""></a>
+                <a href="" target="_blank"><img src="MEDIA/image/RTS_LOGO-removebg-preview (1).png" alt=""></a>
+                <a href="" target="_blank"><img src="MEDIA/image/orange logo.png" alt=""></a>
+            </div>
+         </div>
+        <!-- 7e PARTIE -->
+         <div class="ask">
+            <img src="" alt="">
+            <div class="form">
+                <h2>nous contacter</h2>
+                  <p></p>
+            </div>
+         </div>
+        <!-- 8e PARTIE -->
+        <!-- 9e PARTIE -->
+        <!-- 10e PARTIE -->
+        <!-- 11e PARTIE -->
+        <!-- 12e PARTIE -->
+        <!-- 13e PARTIE -->
+        <!-- 14e PARTIE -->
+        <!-- 15e PARTIE -->
+        <!-- 16e PARTIE -->
+        <!-- 17e PARTIE -->
+        <!-- 18e PARTIE -->
+        <!-- 19e PARTIE -->
+        <!-- e PARTIE -->  
+        
+    </div>
 </body>
 </html>

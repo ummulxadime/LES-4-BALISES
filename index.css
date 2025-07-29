@@ -1,0 +1,184 @@
+body{
+    background-color: antiquewhite;
+}
+/* 1e partie */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+li > a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  black;
+    border-style: double;
+    border-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px; 
+}
+li > a:hover{
+    background-color: antiquewhite;
+    color: black;
+    border-style: double;
+    border-color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.menu > a {
+    background-color: black;
+    border-color: antiquewhite;
+    border-style: double;
+    border-radius: 20px;
+    background-color: ;
+}
+.menu > a > img{
+    width: 100px;
+    height: 75px;
+}
+/* 2e partie */
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.video-section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    padding: 5px;
+    border-radius: 50PX;
+}
+.content {
+    text-align: center;
+    padding: 100px;
+    margin-top: 70px;
+}
+.content > h1{
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgba(243, 241, 241, 0.282);
+    border-style: groove;
+    border-color: rgb(227, 225, 225);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+}
+.content > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15PX;
+}
+.reseaux{
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.reseaux > a > img{
+    width: 40px;
+    height: 40px;
+    
+}
+/* 3e partie */
+.apropos{
+    margin-bottom: 70px;
+}
+.fil{
+  border: 3px solid black; 
+  border-radius: 8px;        
+}
+.texte > p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texte > a > button{
+    background-color: black;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* 4e partie */
+/* 5e partie */
+.M5 > a > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 5px;
+}
+.porsche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding: 15px;
+}
+.porsche > .M5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-style: double;
+    border-color: black;
+    background-color: rgb(205, 202, 202);
+    border-radius: 10px;
+}
+.artiste > h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 40px;
+}
+/* 6e partie */
+.np1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(216, 213, 213);
+}
+.np1 > a > img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.nospartenaires > h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 40px;
+}
+/* 7e partie */
+/* 8e partie */
+/* 9e partie */
+/* 10e partie */
+/* 11e partie */
+/* 12e partie */
+/* 13e partie */
+/* 14e partie */
+/* 15e partie */
+/* 16e partie */
+/* 17e partie */
+/* 18e partie */
+/* 19e partie */
+/* 20e partie */

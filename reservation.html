@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reservation.css">
 </head>
 <body>
+  <h2>Réservation</h2>
+  <div class="reserve">
+    <button type="submit">Réserver</button><br><br>
      <section class="reservation">
-    <h2>Réserver</h2>
     <form>
     <label for="name">Nom :</label>
     <input type="text" id="name" required><br><br>
     <label for="phone">Téléphone :</label>
     <input type="tel" id="phone" placeholder="+221..." required><br><br>
-    <label for="ticket">Type de billet :</label><br><br>
-    <select id="ticket" required>
-        <option value="">-- Choisir --</option>
+    <label for=""> Type de billet</label>
+    <select>
         <option>Entrée + conso – 15 000 FCFA</option>
         <option>Entrée + dîner – 25 000 FCFA</option>
         <option>Salon 6 pers. + dîner – 125 000 FCFA</option>
     </select><br><br>
-      <button type="submit">Réserver</button>
     </form>
   </section>
+  </div>
     <footer>
     <p>&copy; 2025 Cool'Heures • Powered by Gnudem</p>
   </footer>

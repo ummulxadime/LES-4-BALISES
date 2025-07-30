@@ -1,10 +1,45 @@
-/*body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f8f9fa;
-  color: #333;
-}*/
+body {
+  background-color: black;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}li > a{
+    text-decoration: none;
+    color: #0d1b2a;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  antiquewhite;
+    border-style: double;
+    border-color: #0d1b2a;
+    border-radius: 20px;
+    padding: 20px; 
+}
+li > a:hover{
+    background-color: antiquewhite;
+    color: black;
+    border-style: double;
+    border-color: black;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}                                                                                                                                                                                .menu > a {
+    background-color: black;
+    border-color: antiquewhite;
+    border-style: double;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.menu > a > img{
+    width: 100px;
+    height: 75px;
+}
 .TETE{
   background-image: url(AMA.jpg);
   color: black;
@@ -36,9 +71,15 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-
+#pap{
+  color: black;
+}
+p{
+  color: white;
+}
 ul li {
   padding: 0.5rem 0;
+  color: white;
 }
 
 form {
@@ -49,7 +90,7 @@ form {
 
 input, select {
   padding: 0.7rem;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   border-radius: 5px;
 }
 

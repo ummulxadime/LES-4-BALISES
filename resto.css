@@ -1,0 +1,148 @@
+body{
+    margin: 10px;
+      background-color:black;
+      
+      
+}
+.menu li img{
+    width: 24px;
+    height: 24px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    
+    
+}
+.pre{
+    color: rgb(189, 13, 13);
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+}
+.presentation{
+     background-color:white;
+     padding:30px;
+}
+/* partie boutique */
+.boutiques{
+  display: grid;
+  grid-template-columns: 25% 25% 25%  25%;
+  gap: 15px;
+  text-align: center;
+    
+}
+h1{
+    text-align: center;
+    text-decoration:none;
+    color: white;
+    
+}
+.vetement img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+} 
+h3{
+    background-color:white;
+    text-align: center;
+     text-decoration:none;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.vetement img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+     
+}
+.localisation .position img{
+    width:30px;
+    height: 30px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color:white;
+    
+}
+.p2{
+  color:black; 
+  font-size: 50px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+#p1{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+}
+#Re{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color: white;
+    
+}
+.reseaux{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.reseaux img{
+    width: 24px;
+    height: 24px;
+}
+ #Re img{
+    width: 25px;
+    height: 25px;
+ } 
+ .vetement img:hover{
+    transform:scale(1.2);
+ } 
+
+ footer{
+    display: flex;
+    justify-content: center;
+ }
+ p{
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
+ .vetement{
+    
+   align-items: center;
+    gap: 10px;
+}
+h2{
+    color: white;
+}
+.position{
+    color: white;
+}
+ #stop{
+    color: white;
+ }
+ label{
+    color: white;
+ }

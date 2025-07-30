@@ -15,12 +15,12 @@ ul{
 }
 li > a{
     text-decoration: none;
-    color: antiquewhite;
+    color: #0d1b2a;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:  black;
+    background-color:  antiquewhite;
     border-style: double;
-    border-color: antiquewhite;
+    border-color: #0d1b2a;
     border-radius: 20px;
     padding: 20px; 
 }
@@ -37,7 +37,7 @@ li > a:hover{
     border-color: antiquewhite;
     border-style: double;
     border-radius: 20px;
-    background-color: ;
+    background-color: antiquewhite;
 }
 .menu > a > img{
     width: 100px;
@@ -68,14 +68,14 @@ li > a:hover{
     margin-top: 70px;
 }
 .content > h1{
-    color: white;
+    color: #f0e130;
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:  rgba(243, 241, 241, 0.282);
     border-style: groove;
     border-color: rgb(227, 225, 225);
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 10px;
 }
 .content > p{
@@ -97,16 +97,20 @@ li > a:hover{
     margin-bottom: 70px;
 }
 .fil{
-  border: 3px solid black; 
+  border: 3px solid #f0e130; 
   border-radius: 8px;        
 }
 .texte > p{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f0e130;
+}
+legend > h1{
+     color: #f0e130;
 }
 .texte > a > button{
-    background-color: black;
-    color: antiquewhite;
+    background-color: #f0e130;
+    color: #0d1b2a;
     padding: 5px;
     border-radius: 5px;
 }
@@ -129,7 +133,7 @@ li > a:hover{
     display: flex;
     justify-content: center;
     background-color: black;
-    color: antiquewhite;
+    color: #f0e130;
     padding: 5px;
     margin-left: 100px;
     margin-right: 100px;

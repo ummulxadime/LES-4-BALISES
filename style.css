@@ -1,0 +1,271 @@
+ body {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin: 10px;
+       background-color: #111;
+   }
+   .paragraphe {
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: flex-start;
+    justify-content: center;
+   margin: 10px 150px 10px 150px;
+   color: #fff;
+    line-height: 2rem;
+
+   }
+    
+
+
+   .button_container {
+    display: flex;
+    justify-content: center;
+  
+   
+     
+    
+   }
+   
+   .button_container button :hover{
+     color: white;
+    background-color: black;
+   }
+  
+
+   
+  .titre {
+    font-size: xx-large;
+    color: #127FC4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     font-weight: bolder;  
+       justify-content: center;    
+   }
+
+   
+
+
+    .bg-container > h1 {
+    font-size: xx-large;
+    color: white;
+   }
+   
+
+   .bg-container {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: space-between;
+       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/image_6.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height: 670px;
+       padding: 20px;
+       margin: 30px;
+   }
+   .events-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* background-color: aqua; */
+width: auto;
+    
+}
+.items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: antiquewhite; */
+    align-items: center;
+}
+
+   .event-item {
+    border-radius: 10px;
+     border: 1px solid blue;
+     margin: 20px;
+    background-color: azure;
+    width: 300px;
+   }
+ .event-item1 {
+    
+     border: 1px solid blue;
+     margin: 20px;
+
+    background-color: red;
+   }
+
+
+   .artiste-container {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: flex-start;
+       gap: 15px;
+       margin: 30px;
+       width: auto;
+       align-items: center;
+
+   }
+   .artiste-container>h1{
+    display: flex;
+    flex-direction: row;
+   }
+   .espace-container{
+    background-color: #127FC4;
+
+   }
+  
+
+
+   .artiste-item {
+       display: flex;
+       flex-direction: column;
+       border-radius: 10px;
+       box-shadow: 0 4px 8px 0 black;
+       border: 1px dotted black;
+       align-items: center;
+       padding: 15px;
+       
+   }
+    .artiste-item >h2{
+       color: white;
+       padding: 5px;
+       
+   }
+      .artiste-item >p{
+       padding: 0px;
+       line-height: 0rem;;
+       color: #fff;
+       
+   }
+
+   .img-artistque {
+       height: 250px;
+       width: 300px;
+       border-radius: 10px;
+
+   }
+/*courrousel *?\/
+/* Reset basique
+*{margin:0;
+    padding:0;
+    box-sizing:border-box}
+body{font-family:system-ui;
+    background:#111;
+    color:#fff}
+ */
+/* Carousel container */
+.carousel{
+  position:relative;
+  width:100%;
+  max-width:1600px;
+  margin:40px auto;
+  overflow:hidden;
+  border-radius:8px;
+  box-shadow:0 4px 20px rgba(0,0,0,.6);
+}
+
+/* Masquer les inputs radio */
+.carousel input{display:none}
+
+/* Slides wrapper */
+.slides{
+  display:flex;
+  width:300%; /* 3 images = 100% × 3 */
+  transition:transform .6s ease;
+}
+
+/* Chaque slide */
+.slide{
+  width:33.333%;
+  position:relative;
+}
+
+.slide img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:cover;
+}
+
+/* Légende */
+.caption{
+  position:absolute;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(0,0,0,.5);
+  color:#fff;
+  padding:8px 16px;
+  border-radius:4px;
+  font-size:1.1rem;
+  white-space:nowrap;
+}
+
+/* Navigation bullets */
+.nav{
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:8px;
+}
+
+.nav label{
+  width:12px;
+  height:12px;
+  background:#fff8;
+  border-radius:50%;
+  cursor:pointer;
+  transition:.3s;
+}
+.nav label:hover{background:#fff}
+
+/* Flèches optionnelles */
+.arrows{
+  position:absolute;
+  top:50%;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  transform:translate(-50%);
+}
+  .arrows label{
+  padding:8px 12px;
+  font-size:24px;
+  cursor:pointer;
+  color:#fff;
+  background:rgba(0,0,0,.4);
+  border-radius:4px;
+  user-select:none;
+  transition:.3s;
+}
+.arrows label:hover{background:rgba(0,0,0,.7)}
+
+/* Animation automatique */
+@keyframes auto{
+  0%   {transform:translateX(0)}
+  33%  {transform:translateX(-33.333%)}
+  66%  {transform:translateX(-66.666%)}
+  100% {transform:translateX(0)}
+}
+
+/* Appliquer l’animation par défaut */
+.slides{animation:auto 15s infinite}
+
+/* Stopper l’animation quand l’utilisateur clique */
+#slide1:checked ~ .slides{animation:none;transform:translateX(0)}
+#slide2:checked ~ .slides{animation:none;transform:translateX(-33.333%)}
+#slide3:checked ~ .slides{animation:none;translateX(-66.666%)}
+
+/* Highlight bullet actif */
+#slide1:checked ~ .nav label:nth-child(1),
+#slide2:checked ~ .nav label:nth-child(2),
+#slide3:checked ~ .nav label:nth-child(3){
+  background: #fff;
+}

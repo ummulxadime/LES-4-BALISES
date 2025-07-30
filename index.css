@@ -1,5 +1,5 @@
 body{
-    background-color: #0d1b2a;
+    background-color: black;
 }
 /* 1e partie */
 .menu{
@@ -18,13 +18,13 @@ li > a{
     color: #0d1b2a;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:  antiquewhite;
+    background-color:  white;
     border-style: double;
     border-color: #0d1b2a;
     border-radius: 20px;
     padding: 20px; 
 }
-li > a:hover{
+li  a:hover{
     background-color: antiquewhite;
     color: black;
     border-style: double;
@@ -32,12 +32,14 @@ li > a:hover{
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
+
 .menu > a {
     background-color: black;
-    border-color: antiquewhite;
+    border-color: black;
     border-style: double;
     border-radius: 20px;
-    background-color: antiquewhite;
+    background-color: white;
+    background-image: url(MEDIA/image/);
 }
 .menu > a > img{
     width: 100px;
@@ -68,7 +70,7 @@ li > a:hover{
     margin-top: 70px;
 }
 .content > h1{
-    color: #f0e130;
+    color: antiquewhite;
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:  rgba(243, 241, 241, 0.282);
@@ -97,19 +99,19 @@ li > a:hover{
     margin-bottom: 70px;
 }
 .fil{
-  border: 3px solid #f0e130; 
+  border: 3px solid antiquewhite; 
   border-radius: 8px;        
 }
 .texte > p{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #f0e130;
+    color: antiquewhite;
 }
 legend > h1{
-     color: #f0e130;
+     color: antiquewhite;
 }
 .texte > a > button{
-    background-color: #f0e130;
+    background-color: antiquewhite;
     color: #0d1b2a;
     padding: 5px;
     border-radius: 5px;
@@ -132,8 +134,8 @@ legend > h1{
 .nospartenaires > h1{
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: #f0e130;
+    background-color: antiquewhite;
+    color: black;
     padding: 5px;
     margin-left: 100px;
     margin-right: 100px;
@@ -161,7 +163,7 @@ footer {
 }
 
 .footer-info h3 {
-  color: #f0e130;
+  color: antiquewhite;
   margin-bottom: 10px;
 }
 
@@ -175,13 +177,16 @@ footer {
 }
 
 .footer-links a {
-  color: #ffffff;
+  color: antiquewhite;
   text-decoration: none;
+  background-color: black;
+  padding: 20px;
+  margin: 10px;
 }
 
 .footer-links a:hover {
   text-decoration: underline;
-  color: #f0e130;
+  color: black;
 }
 
 .footer-bottom {
@@ -191,17 +196,3 @@ footer {
   margin-top: 20px;
   font-size: 0.85em;
 }
-
-/* 8e partie */
-/* 9e partie */
-/* 10e partie */
-/* 11e partie */
-/* 12e partie */
-/* 13e partie */
-/* 14e partie */
-/* 15e partie */
-/* 16e partie */
-/* 17e partie */
-/* 18e partie */
-/* 19e partie */
-/* 20e partie */

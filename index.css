@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: #0d1b2a;
 }
 /* 1e partie */
 .menu{
@@ -112,39 +112,6 @@ li > a:hover{
 }
 /* 4e partie */
 /* 5e partie */
-.M5 > a > img{
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
-    padding: 5px;
-}
-.porsche{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 25px;
-    padding: 15px;
-}
-.porsche > .M5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px;
-    border-style: double;
-    border-color: black;
-    background-color: rgb(205, 202, 202);
-    border-radius: 10px;
-}
-.artiste > h1{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: antiquewhite;
-    padding: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 40px;
-}
 /* 6e partie */
 .np1{
     display: flex;
@@ -169,6 +136,58 @@ li > a:hover{
     font-size: 40px;
 }
 /* 7e partie */
+footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-size: 0.95em;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-container > div {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+.footer-info h3 {
+  color: #f0e130;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #f0e130;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #1b263b;
+  padding-top: 15px;
+  margin-top: 20px;
+  font-size: 0.85em;
+}
+
 /* 8e partie */
 /* 9e partie */
 /* 10e partie */
